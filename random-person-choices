@@ -1,0 +1,8 @@
+import random
+hobbies= ['Kino','Opera','Balet','Filharmonia/Koncert muzyki klasycznej','Teatr/Przedstawienie teatralne','Muzeum',
+              'Galeria sztuki','Zwiedzanie zabytków','Występy artystyczne','Imprezy sportowe', 'Seanse filmowe',
+              'Przedstawienia estradowe i kabaretowe', 'Cyrk, pokazy magii, akrobacji, rewie','Wesołe miasteczka','Salony gier',
+              'Imprezy taneczne','Imprezy sportowe','Historia','Fotografia','Grafika komputerowa','Muzyka','Taniec','Plastyka',
+              'Pisanie']
+hobbies_weights = [127,55,65,118,322,375,164,468,89,73,51,268,136,321,106,640,559,230,89,104,56,83,61,53]
+print(random.choices(hobbies, weights=hobbies_weights, k=5))
